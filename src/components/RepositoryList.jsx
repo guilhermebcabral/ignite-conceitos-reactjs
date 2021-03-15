@@ -1,10 +1,14 @@
 import { RepositoryItem } from "./RepositoryItem";
 
+import '../styles/repositories.scss'
+
 const repository = {
   name: 'Unform',
   description: 'ReactJS',
   link: 'https://github.com/unform/unform'
 }
+
+
 
 export function RepositoryList() {
   return (
